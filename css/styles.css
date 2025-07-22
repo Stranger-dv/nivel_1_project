@@ -1,0 +1,416 @@
+:root{
+    --primary-color: #c5975d;
+    --secondary-color: #d0c3b3;
+    --white-color: #ffffff;
+    --dark-color:#494a4c;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBALES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+.button{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border: 0.3rem solid var(--primary-color);
+    font-weight: bold;
+    
+}
+.button-primary{
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+.button-secondary{
+    border: 0.3rem solid var(--secondary-color);
+}
+
+
+/* Fuente */
+
+.roboto-font{
+    font-family: "Roboto", sans-serif;
+}
+.montserrat-font{
+    font-family: "Montserrat", sans-serif;
+}
+
+.lora-font{
+    font-family: "Lora", serif;
+}
+
+
+/* HEADER */
+.site-header {
+    background-image: url('../img/1.png');
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 60rem;
+    overflow: hidden;
+}
+.orange-square-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 30rem;
+}
+.orange-square{
+    background-color: var(--primary-color);
+    width: 6.5rem;
+    height: 2rem;
+}
+
+.welcome{
+    font-size: 3rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+}
+li a {
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+.menu{
+    margin-bottom: 0.5rem;
+}
+.nav-list{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.welcome-container{
+    display: flex;
+    justify-content: center;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 29rem;
+}
+.titles-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.title-1{
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.title-2{
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+.fa-solid{
+    margin-right: 2rem;
+    font-size: 1.6rem;
+}
+
+
+.image{
+    background-image: url('../img/4.png');
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 60rem;
+    overflow: hidden;
+}
+
+/* Quienes somos */
+
+.h2-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.who-section p {
+    font-size: 1.5rem;
+}
+.who-section{
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.who-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.who-section-1 {
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.who-section-1 h2 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.who-section-1 p:last-child {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    margin: 20px 0 20px 0;
+}
+span{
+    font-weight: bold;
+}
+.comillas{
+    color: var(--white-color);
+    font-size: 2rem;
+}
+.who-section-2{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.who-section-2 h3:first-child {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: var(--white-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title-icon{
+    display: flex;
+    align-items: center;
+}
+.title-icon img {
+    width: 4rem;
+}
+
+/* Capta clientes */
+.black-square{
+    background-color: var(--dark-color);
+    height: 10rem;
+}
+.menu-attract-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rrss-package{
+    height: 10rem;
+    overflow: hidden;
+}
+.rrss-package p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+.rrss{
+    text-decoration: underline;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.fa-circle-user{
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.attract{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.attract-text{
+    font-size: 1.5rem;
+}
+.rrss-package-container{
+    display: flex;
+    margin-top: 1rem;
+}
+.rrss-package-container img{
+    width: 5rem;
+    height: 5rem;
+}
+
+/* Portafolio */
+.portfolio{
+    background-image: url('../img/4.png');
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 60rem;
+    overflow: hidden;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portafolio-information p{
+    color: var(--white-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.portafolio-information p:nth-child(2){
+    font-size: 5.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+.portafolio-information{
+    text-align: center;
+}
+.portafolio-information a {
+    font-size: 2.6rem;
+    border: 7px solid var(--primary-color);
+}
+.portafolio-information a i{
+    font-size: 3rem;
+}
+
+
+@media (min-width: 0) and (max-width:600px){
+    .contenedor {
+    width: 95%;
+    max-width: 120rem; /** = 1200px **/
+    margin: 0 auto;
+    }
+}
+
+@media (min-width: 900px) {
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        padding: 70px;
+        margin-right: 9rem;
+        gap: 5rem;
+    }
+    .welcome-container{
+        padding: 30px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .buttons-container{
+        margin-top: 22rem;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3rem;
+    }
+}
+
+@media (min-width: 1220px) {
+    .button{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: var(--white-color);
+        padding: 0.8rem 3rem 0.8rem 1.2rem;
+        font-weight: bold;
+    }
+    .welcome-container{
+        margin-left: 1.7rem;
+    }
+    .welcome{
+        font-size: 4.2rem;
+        font-weight: bold;
+    }
+    .buttons-container{
+        margin-left: 100px;
+        margin-top: 17rem;
+    }
+    .title-1{
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .title-2{
+        font-size: 1.5rem;
+    }
+    .who-section {  /**/
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    }
+    .who-section-1 h2 { /**/
+    font-size: 7.5rem;
+    line-height: 8rem;
+    }
+    .description { /**/
+    margin-left: 3rem;
+    }
+    .plan-img{ /**/
+    margin-top: 10rem;
+    width: 30rem;
+    }
+    .who-section-1 h2 {
+    margin-left: 6rem;
+    }
+    .fa-circle-user{
+        font-size: 4rem;
+    }
+    .attract-customers{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .content-1{
+        overflow: hidden;
+        width: 60%;
+        height: 70rem;
+        position: relative;
+    }
+    .content-1 img{
+        width: 35.5rem;
+        margin-left: 16rem;
+        position: absolute;
+        z-index: -10;
+    }
+    .message{
+        width: 40rem;
+        font-size: 2rem;
+        margin-top: 45rem;
+        margin-left: 2rem;
+    }
+    .content-2{
+        position: relative;
+        height: 10rem;
+        margin-top: 2rem;
+        max-width: 40rem;
+        margin-right: 10rem;
+    }
+    .attract{
+        font-size: 5rem;
+    }
+    .attract-text{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .rrss-package-container{
+        margin-top: 2rem;
+    }
+    .rrss-package{
+        margin-left: 2rem;
+    }
+    .rrss-package p{
+        font-size: 2rem;
+    }
+
+}
