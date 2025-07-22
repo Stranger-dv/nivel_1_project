@@ -1,6 +1,6 @@
 # Proyecto Web Nivel 1
 
-Este es un proyecto básico construido con **HTML** y **CSS**. La idea principal es practicar la estructura de páginas web y el diseño visual usando únicamente tecnologías del lado del cliente.
+Este es un proyecto básico construido con **HTML** y **CSS** para Nivel 1 Proyectos | Arquitectura Diseño Construcción.
 
 ## 🚀 Características
 
